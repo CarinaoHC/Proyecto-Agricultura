@@ -1,0 +1,85 @@
+.modalAdd-container-global {
+    background-color: rgba(0, 0, 0, 0.577);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalAdd-content {
+    background-color: #3F3B51;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 87%;
+    max-width: 900px;
+    height: 77%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-myNote {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content-item {
+    width: 78%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.btn-save-item {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+
+}
+
+.box-close {
+    border-radius: 16px;
+    width: 50px;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(32%, -54%);
+    background-color: #FFC24C;
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    width: 90%;
+}
+
+
+.title-add {
+    border-radius: 7px;
+    padding: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+.text-new {
+    border-radius: 7px;
+    padding: 8px;
+    border: none;
+    font-size: 1rem;
+    overflow-y: scroll;
+    resize: none; 
+}

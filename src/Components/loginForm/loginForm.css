@@ -1,0 +1,67 @@
+.loginform-conteiner {
+    overflow: hidden;
+    background-color: #fbfbfb;
+    width: 89%;
+    max-width: 711px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.loginform-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.init-text {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-google {
+    background-color: #26CD91;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.btn-ingresar {
+    background-color: #FFC24C;
+    padding: 8px;
+    margin-top: 22px;
+}
+
+.img-desktop {
+    width: 39%;
+}
+
+.btn-ingresar,
+.btn-google {
+    height: 45px;
+    width: 100%;
+    border-radius: 14px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: -3px 6px 9px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (max-width: 925px) {
+    .img-desktop {
+        display: none;
+
+    }
+}

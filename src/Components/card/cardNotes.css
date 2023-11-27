@@ -1,0 +1,99 @@
+.card-notes {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    overflow: auto;
+    width: 90%;
+    max-width: 900px;
+    margin-bottom: 33px;
+}
+
+.card-notes-container {
+    flex: 2 2 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 13px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -3px 6px 9px rgba(0, 0, 0, 0.25);
+    max-height: 139px; 
+    overflow: hidden;
+}
+
+.card-notes-container:hover {
+    color: orange;
+}
+
+.container-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -15px;
+    gap: 2px;
+}
+
+.btn-edit {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 15%;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-delete {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 12%;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-notes-title {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-notes-text {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Cambia desde 498px en adelante */
+@media (min-width: 498px) {
+    .card-notes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-notes-container {
+    flex: 2 2 300px;
+    }
+    .btn-edit {
+        width: 40px;
+    }
+
+    .btn-delete {
+        width: 60px;
+    }
+    .card-notes-text {
+    font-size: 1.15rem;
+}
+}
